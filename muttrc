@@ -1,0 +1,15 @@
+set imap_user = xxx
+set imap_pass = xxx
+
+set folder = "imaps://xxx" # change to hostname
+set spoolfile = "+INBOX"
+set record = "+Sent"
+set postponed = "+Drafts"
+set trash = "+Trash"
+
+mailboxes INBOX
+
+unset imap_passive
+set timeout=1
+set sort=reverse-date
+
